@@ -1,11 +1,23 @@
-# Breast Cancer Prediction Frontend
+#  Breast Cancer Prediction System
 
-This repository now contains two complementary interfaces for the breast cancer prediction pipeline trained in `Untitled13.ipynb`.
+An end-to-end machine learning application for predicting breast cancer using clinical features. This project includes a **FastAPI backend**, a **React frontend**, and an optional **Streamlit interface**, along with model explainability using SHAP.
 
-1. **FastAPI backend + React dashboard (new)** – a standard web architecture where a REST API serves predictions/SHAP reasoning and a React UI collects feature inputs.
-2. **Streamlit notebook-style app (original)** – still available at `streamlit_app.py` if you prefer an all-in-one Python experience.
+---
 
-## Project layout
+##  Overview
+
+This project provides two interfaces:
+
+- **FastAPI + React (Recommended)**  
+  A scalable web-based architecture using REST APIs and a modern frontend.
+
+- **Streamlit App (Optional)**  
+  A simple, all-in-one Python interface for quick testing and demonstrations.
+
+---
+
+##  Project Structure
+
 
 ```
 .
